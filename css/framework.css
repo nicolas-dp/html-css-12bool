@@ -63,7 +63,14 @@
     padding: 0 1rem;
   }
   
-  
+  .row>.col-1,
+  .row>.col,
+  .row>.col-12:not(.text){
+    display: flex;
+    justify-content: center;
+
+  }
+
   [class*="col-"] {
     flex: 0 0 auto;
   }
