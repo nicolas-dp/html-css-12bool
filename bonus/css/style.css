@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --footernav-color: rgba(34, 34, 34, 1);
+    --share-color: rgba(75, 200, 0, 1);
+    --end-color: rgba(226, 21, 15, 1);
+    --bgend: rgba(74, 74, 74, 1);
+    --bgname: rgba(74, 74, 74, 0.575);
+
+
+}
+
+
+ 
+
+body {
+    background-image: url(https://wallpaperbat.com/img/455850-cartoon-cloud-wallpaper-top-free-cartoon-cloud-background.jpg);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+body i{
+    color: white;
+    text-decoration: none;
+}
+
+ main{
+     margin: 0 auto;
+     height: calc(100% - 80px);
+     overflow: hidden;
+}
+
+
+.card>img{
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.icon{
+    background-color: var(--bgend);
+    padding: 0.1rem 1rem;
+    border-radius: 5px;
+    color: white;
+}
+
+
