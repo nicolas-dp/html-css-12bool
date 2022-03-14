@@ -1,0 +1,12 @@
+:root {
+  --col-color: #006CFA;
+  --nested-color: #00E165;
+
+}
+
+.row>.col-1 {
+  background-color: var(--col-color);
+  border: 1px solid white;
+  height: 50px;
+  color: white;
+}
