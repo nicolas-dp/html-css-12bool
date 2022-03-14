@@ -14,34 +14,17 @@
   .align-center {
     align-items: center;
   }
-  
-  /* Typograpy */
-  .text-center {
-    text-align: center;
-  }
-  
-  .text-right {
-    text-align: right;
-  }
-  
-  
-  .display-1 {
-    font-size: 4rem;
-  }
-  
+ 
   
   /* Utility spaces */
   
-  .p-1 {
+  .p-5px {
     padding: 1rem;
   }
+
   
-  .p-5 {
-    padding: 5rem;
-  }
-  
-  .mt-3 {
-    margin-top: 3rem;
+  .middle {
+    margin-top: 2rem;
   }
   
   /* Grid structure */
@@ -63,13 +46,13 @@
     padding: 0 1rem;
   }
   
-  .row>.col-1,
-  .row>.col,
-  .row>.col-12:not(.text){
+  .row>.col-12:not(.text),
+  [class^="col"]{
     display: flex;
     justify-content: center;
-
+    gap: 5px;
   }
+
 
   [class*="col-"] {
     flex: 0 0 auto;

@@ -6,10 +6,26 @@
 
 
 .row>.col-1,
+.row>.col-2,
 .row>.col,
-.row>.col-12:not(.text){
+.row>.col-12:not(.text),
+.row>.col-8,
+.row>.col-9,
+.row>.col-10,
+.row>.col-11,
+.row>.col-7,
+.row>.col-5,
+.row>.col-4,
+.row>.col-3,
+.row>.col-6{
   background-color: var(--col-color);
   border: 1px solid white;
   height: 50px;
   color: white;
+} 
+
+
+.bg-green{
+  background-color: var(--nested-color);
+  padding: 0;
 }
